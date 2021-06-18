@@ -1,0 +1,144 @@
+.h1,
+.h2,
+.h3,
+.h4,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.serif-font,
+.popover,
+.tooltip {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.dropdown-notification-menu {
+    min-width: 250px;
+    max-width: 320px;
+}
+
+.dropdown-notification-menu a {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    line-height: 2 !important;
+    padding: 7px 18px !important;
+}
+
+.card-profile .card-avatar {
+    box-shadow: 0 4px 20px 0 #00000024, 0 7px 10px -5px #52525266;
+}
+
+.pay-card {
+    padding: 15px 10px;
+}
+
+.pay-card ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pay-card ul li {
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.pay-card ul li span {
+    font-weight: 500;
+}
+
+.sidebar[data-color=theme] li.active>a {
+    background-color: #ed4c21;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(255, 152, 0, .4)
+}
+
+.card .card-header-theme .card-icon,
+.card .card-header-theme .card-text,
+.card .card-header-theme:not(.card-header-icon):not(.card-header-text) {
+    background: linear-gradient(60deg, #ed4c21, #ed3921)
+}
+
+.fixed-plugin .badge-theme {
+    background-color: #ed4c21
+}
+
+.logo-normal {
+    max-width: 150px;
+    margin: auto;
+    display: block;
+}
+
+.logo-normal img {
+    width: 100%;
+}
+
+
+
+.payment {
+    display: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-theme {
+    color: #ed4c21 !important;
+    background-color: #fff;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 12px 30px !important;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-theme span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-theme:hover {
+    color: #fff !important;
+    border-color: #ed4c21;
+}
+
+.btn-theme.active {
+    background-color: #ed4c21;
+    color: #fff !important;
+    border-color: #ed4c21;
+}
+
+.btn-theme.active:hover {
+    background-color: #d30e00;
+    border-color: #F75028;
+}
+
+.btn-theme::before {
+    content: '';
+    position: absolute;
+    background-color: #ed4c21;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    transition: linear .3s;
+    border-radius: 4px;
+}
+
+.btn-theme:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+    transition: linear .3s;
+}
